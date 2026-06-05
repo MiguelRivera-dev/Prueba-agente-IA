@@ -1,10 +1,10 @@
-# ChatBot de Teto (TetoBot) 🤖🥖
+# ChatBot de Teto (TetoBot) 
 
 Este proyecto consiste en una aplicación web de chat interactiva que utiliza la API de **Google Gemini** para responder a los mensajes del usuario con la personalidad de **Teto Kasane** (UTAU). La solución está estructurada con un backend ligero en Python (con Flask) y una interfaz web moderna, responsiva y animada (HTML, CSS, JavaScript) que incluye efectos de diseño premium.
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Agente IA/
@@ -24,7 +24,7 @@ Agente IA/
 
 ---
 
-## 🛠️ Librerías Utilizadas y Explicación
+##  Librerías Utilizadas 
 
 Para el correcto funcionamiento del backend en Python, se emplean las siguientes dependencias clave declaradas en `requirements.txt`:
 
@@ -46,7 +46,7 @@ Para el correcto funcionamiento del backend en Python, se emplean las siguientes
 
 ---
 
-## 🛠️ Requisitos Previos
+## Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado:
 * **Python 3.8 o superior** (descárgalo de [python.org](https://www.python.org/)).
@@ -54,7 +54,7 @@ Antes de comenzar, asegúrate de tener instalado:
 
 ---
 
-## 🚀 Instalación y Configuración
+##  Instalación y Configuración
 
 Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
@@ -85,11 +85,11 @@ Abre el archivo `.env` en la raíz del proyecto y reemplaza el marcador con tu c
 ```env
 GEMINI_API_KEY=TU_API_KEY_AQUI
 ```
-> ⚠️ **Nota:** Reemplaza `TU_API_KEY_AQUI` por la clave API real que obtuviste en Google AI Studio (suele empezar con `AIzaSy` o `AQ.`).
+> **Nota:** Reemplaza `TU_API_KEY_AQUI` por la clave API real que obtuviste en Google AI Studio (suele empezar con `AIzaSy` o `AQ.`).
 
 ---
 
-## 🏃‍♂️ Cómo Ejecutar la Aplicación
+## Cómo Ejecutar la Aplicación
 
 ### Paso 1: Iniciar el Servidor Backend
 Con tu entorno virtual activo, ejecuta el archivo `app.py`:
@@ -103,10 +103,10 @@ Simplemente haz doble clic en el archivo [index.html](file:///c:/Users/Adrian/On
 
 ---
 
-## 🧠 ¿Cómo funciona la arquitectura del Chat?
+##  ¿Cómo funciona la arquitectura del Chat?
 
-1. **Diseño Visual Dinámico y Premium (Frontend):**
-   * Al iniciar, `index.html` carga con la clase `home-active` en el `<body>`, mostrando la ilustración anime de Kasane Teto ([teto_home_bg.png](file:///c:/Users/Adrian/OneDrive/Documentos/ITESI/Servicio%20Social/Agente%20IA/Agente%20IA/teto_home_bg.png)) como fondo de pantalla de bienvenida, y una tarjeta de inicio con efecto de vidrio esmerilado (*glassmorphism*).
+1. **Diseño Visual Dinámico (Frontend):**
+   * Al iniciar, `index.html` carga con la clase `home-active` en el `<body>`, mostrando la ilustración de Kasane Teto ([teto_home_bg.png](file:///c:/Users/Adrian/OneDrive/Documentos/ITESI/Servicio%20Social/Agente%20IA/Agente%20IA/teto_home_bg.png)) como fondo de pantalla de bienvenida, y una tarjeta de inicio con efecto de vidrio esmerilado (*glassmorphism*).
    * Al presionar **Iniciar Chat**, JavaScript remueve `home-active` y agrega `chat-active` al `<body>`, cambiando el fondo suavemente al patrón repetible de baguettes y estrellas ([chat_bg.png](file:///c:/Users/Adrian/OneDrive/Documentos/ITESI/Servicio%20Social/Agente%20IA/Agente%20IA/chat_bg.png)).
    * La interfaz del chat cuenta con animaciones fluidas de entrada, escalado de botones, efecto de giro suave en el avatar de Teto y un scroll automático para mantener siempre a la vista el último mensaje enviado.
 
