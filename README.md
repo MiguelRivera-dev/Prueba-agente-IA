@@ -1,6 +1,8 @@
 # ChatBot de Teto (TetoBot) 
 
-Este proyecto consiste en una aplicación web de chat interactiva que utiliza la API de **Google Gemini** para responder a los mensajes del usuario con la personalidad de **Teto Kasane** (UTAU). La solución está estructurada con un backend ligero en Python (con Flask) y una interfaz web moderna, responsiva y animada (HTML, CSS, JavaScript) que incluye efectos de diseño premium.
+Este proyecto consiste en una aplicación web de chat interactiva que utiliza la API de **Google Gemini** para responder a los mensajes del usuario con la personalidad de **Teto Kasane** (UTAU). La solución está estructurada con un backend ligero en Python (con Flask) y una interfaz web moderna, responsiva y animada (HTML, CSS, JavaScript) que incluye efectos de diseño estilo aplicacion de chat.
+
+Elegi este tipo de proyecto, porque aun que ya habia trabajado con meter un modelo de IA en una presentacion con reveal.js, de Gojo. En esta ocasion quise intentar hacer una aplicacion web de chat, implementando un framework web de backend en Flask y una interfaz web moderna, para tener una idea de como se crea una pequeña seguridad para la API Key, y como se manejan las peticiones y respuestas entre el frontend y backend.
 
 ---
 
