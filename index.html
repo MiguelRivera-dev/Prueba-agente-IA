@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot de Teto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home-active">
+    <!-- Pantalla de inicio -->
+    <div class="container" id="home-screen">
+        <h1>¡Hola, soy Teto! 🥖</h1>
+        <p>Tu asistente UTAU favorita está lista para charlar, cantar y comer pan francés. ¡Pregúntame lo que quieras!</p>
+        <button class="btn" onclick="iniciarChat()">Iniciar Chat</button>
+    </div>
+
+    <!-- Pantalla de chat -->
+    <div id="chat-screen" style="display:none;">
+        <div id="chat-box"></div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+            <button class="btn-chat" onclick="enviarMensaje()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
